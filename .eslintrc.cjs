@@ -33,5 +33,6 @@ module.exports = {
         'no-unused-vars': 'error',
         'no-console': 'off',
         'arrow-body-style': 'off',
+        'no-plusplus': 0,
     },
 }
