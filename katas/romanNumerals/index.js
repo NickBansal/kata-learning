@@ -12,7 +12,6 @@ const romanNumerals = (roman) => {
     let prevValue = 0
     for (let i = roman.length - 1; i >= 0; i--) {
         const currentValue = romanNumeral[roman[i]]
-        console.log(currentValue)
         if (currentValue >= prevValue) {
             result += currentValue
         } else {

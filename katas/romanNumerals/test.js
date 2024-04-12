@@ -28,7 +28,7 @@ describe('Arithmetic', () => {
     test('should return 3', () => {
         expect(romanNumerals('III')).toBe(3)
     })
-    test.only('should return 4', () => {
+    test('should return 4', () => {
         expect(romanNumerals('MMMDXCIX')).toBe(3599)
     })
 })
