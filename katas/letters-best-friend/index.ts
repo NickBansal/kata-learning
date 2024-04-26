@@ -1,5 +1,8 @@
 function bestFriend(txt, a, b) {
-    return false
+    if (txt === '') return true
+    if (!txt.includes(a)) return false
+    return txt.split('').reduce((acc, current, index, arr) => {
+        return current === a ? arr[index + 1] === b : acc
+    }, false)
 }
-
-module.exports = bestFriend
+export { bestFriend }
