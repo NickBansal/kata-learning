@@ -1,3 +1,3 @@
-const tester = (a,b) => a+b
+const tester = (a: number, b: number) => a + b
 
 module.exports = tester
