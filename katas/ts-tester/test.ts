@@ -1,4 +1,4 @@
-const arithmetic = (a, b, operator) => {
+const arithmetic = (a: number, b, operator) => {
     const obj = {
         add: '+',
         subtract: '-',
