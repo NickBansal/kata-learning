@@ -6,15 +6,9 @@
         "source.fixAll.eslint": "explicit"
     },
     "[javascript]": {
-        "editor.formatOnSave": false
-    },
-    "[javascriptreact]": {
-        "editor.formatOnSave": false
-    },
-    "[typescript]": {
         "editor.formatOnSave": true
     },
-    "[typescriptreact]": {
+    "[typescript]": {
         "editor.formatOnSave": true
     },
     "cSpell.words": [
